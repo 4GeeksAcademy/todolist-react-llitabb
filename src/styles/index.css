@@ -1,5 +1,22 @@
 body {
+    margin-top: 5%;
     background-size: cover;
     background-repeat: repeat;
     background-image: url("../img/mar.jpg");
+}
+h1 {
+    text-align: center;
+}
+ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+ul li {
+    border: 1px solid grey;
+    list-style: none;
+    padding: 6px;
+}
+input{
+    border: none;
+    width: 100%;
 }
