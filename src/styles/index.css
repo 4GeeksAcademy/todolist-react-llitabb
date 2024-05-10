@@ -1,22 +1,32 @@
-body {
-    margin-top: 5%;
-    background-size: cover;
-    background-repeat: repeat;
-    background-image: url("../img/mar.jpg");
-}
 h1 {
     text-align: center;
+    font-family: fantasy;
+    text-decoration: underline;
 }
+
 ul {
     padding: 0;
     margin-bottom: 0;
 }
+
 ul li {
     border: 1px solid grey;
     list-style: none;
     padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-input{
+
+.bi-trash3-fill {
+    visibility: hidden;
+}
+
+ul li:hover .bi-trash3-fill {
+    visibility: visible;
+}
+
+input {
     border: none;
     width: 100%;
 }
